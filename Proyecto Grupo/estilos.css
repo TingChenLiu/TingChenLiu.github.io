@@ -1,0 +1,78 @@
+body, html {
+
+	color: white;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    
+    background:url(Fotos/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#container{
+    
+    height: auto;
+    width: 65%;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+      
+}
+   
+.enlace{
+    width: 50%;
+}
+
+.enlace img{
+     width: 100%;
+}
+
+#logo{
+ height:100%;
+ width:100%;
+}
+
+#got{ 
+ width: 100%;
+}
+
+#st{
+ height: 100%;
+ width: 100%;
+}
+
+#twd{
+ height: 100%;
+ width: 100%;
+}
+
+#bajo{
+display: flex;    
+ height: auto;
+ width: auto;
+ background-color: rgba(239, 127, 26, 0.9);
+ color: white;
+     justify-content: space-between;
+}
+
+#bajo div{
+    width: 30%;
+
+}
+
+#redes{
+ flex-direction: column;   
+}
+
+#redes img{
+ width: 20%;   
+}
+
+

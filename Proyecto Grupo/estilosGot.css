@@ -1,0 +1,71 @@
+body, html {
+
+	color: white;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    
+    background:url(Fotos/got1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#container{
+    height: auto;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;   
+    color: black;
+}
+ 
+     
+#logo{
+ height:15%;
+ width:15%;
+}
+
+
+#logo1{
+ height:100%;
+ width:100%;
+}
+
+#got{
+ height: 100%;
+ width: 100%;
+}
+#got1{
+ height: 65%;
+ width: 65%;
+ display: flex;
+ margin: auto;
+}
+
+#carro{
+ width: 10%; 
+}
+
+.producto{
+       
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: nowrap;
+   
+}
+
+.producto p{
+       width: 50%;   
+}
+
+.producto a{
+       width: 30%;     
+}
+    
