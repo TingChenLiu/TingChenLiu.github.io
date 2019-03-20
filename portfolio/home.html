@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ES"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ting Chen- Página web de tingchen</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="estilos2.css">
+    </head>
+<body>   
+    <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="home.html">Home</a>
+  <a href="Portfolio.html">Portfolio</a>
+  <a href="Contacto.html">Contact</a>
+  <a href="about.html">About me</a>        
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>  
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+        <div class="capa" id="container">
+             <a title="home" href="home.html"><img id="logo" src="Fotos/nombre1.png" alt="" width="700" height="200"/></a>
+        </div> 
+<hr>
+<p> Demo Reel</p>
+<div class="capa">
+<video controls> 
+    <source src="video/1a.mp4">
+    </video>
+        </div> 
+<hr>
+<div> 
+        <div id="bajo">
+            <div id="contacto">    
+                <h2> Teléfono: 925123456</h2>  
+                <h2> E-mail: tingchen@gmail.com</h2>  
+                <h2> Ayuda ?</h2> 
+            </div>
+            <div id="redes">    
+                <h1> Conecta</h1>
+                <img id="fb" src="Fotos/fb.png" alt="">
+                <img id="insta" src="Fotos/insta.png" alt="">
+                <img id="twitter" src="Fotos/twitter.png" alt="">
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

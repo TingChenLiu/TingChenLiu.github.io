@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="estilosContacto.css">
+    </head>
+    <body>
+    <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="home.html">Home</a>
+  <a href="Portfolio.html">Portfolio</a>
+  <a href="Contacto.html">Contact</a>
+  <a href="about.html">About me</a>        
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>  
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+        <div class="capa">
+             <a title="home" href="home.html"><img id="logo" src="Fotos/nombre1.png" width="700" height="200" alt=""></a>
+        </div> 
+<hr>        
+        <div class="capa" id="container">
+            <div>
+            <div>
+                <div id="contact">
+                    <h1> Contact </h1>
+                </div>
+            </div>
+            <div>
+                <h2>Nombre</h2>
+    <form>
+      <textarea rows="2" cols="70" name="txtsugerencias"></textarea><br>
+      <input type="hidden" name="identificador" value="Z87X09RF"><br>
+             <h2>Dirección de email</h2>
+      <textarea rows="2" cols="70" name="txtsugerencias"></textarea><br>
+      <input type="hidden" name="identificador" value="Z87X09RF"><br>      
+                <h2>Mensaje</h2>
+      <textarea rows="10" cols="70" name="txtsugerencias"></textarea><br>
+      <input type="hidden" name="identificador" value="Z87X09RF"><br>      
+<button type="button" onclick="alert('¡Has enviado correctamente!')">Enviar</button> 
+<hr>          
+    </form>
+            </div>
+    </div>        
+    <div id="bajo">
+            <div id="contacto">    
+                <h3> Teléfono: 925123456</h3>  
+                <h3> E-mail: tingchen@gmail.com</h3>  
+                <h3> Ayuda ?</h3> 
+            </div>
+            <div id="redes">    
+                <h3> Conecta</h3>
+                <img id="fb" src="Fotos/fb.png" alt="">
+                <img id="insta" src="Fotos/insta.png" alt="">
+                <img id="twitter" src="Fotos/twitter.png" alt="">
+            </div>
+        </div>
+          </div>   
+    </body>
+</html>
